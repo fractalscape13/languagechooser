@@ -26,6 +26,21 @@ $(document).ready(function() {
 
   $("#theQuiz").submit(function(event){
     event.preventDefault();
+    var val1 = parseInt($("input:radio[name=input1]:checked").val());
+    var val2 = parseInt($("input:radio[name=input2]:checked").val());
+    var val3 = parseInt($("input:radio[name=input3]:checked").val());
+    var val4 = parseInt($("input:radio[name=input4]:checked").val());
+    var val5 = parseInt($("input:radio[name=input5]:checked").val());
+    var result = val1 + val2 + val3 + val4 + val5
+
+    if (result < 9) {
+      $("#result1").show();
+    } else if (result > 8 && result < 12) {
+      $("#result2").show();
+    } else {
+      $("#result3").show();
+    }
+
     $("#q5").hide();
     $("#output").fadeIn();
   });
