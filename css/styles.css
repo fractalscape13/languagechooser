@@ -8,7 +8,13 @@ body {
 
 h1 {
   margin: 25px;
-  padding-top: 50px;
+  padding: 40px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+h2 {
+  color: slateblue;
 }
 
 #startbtn {
