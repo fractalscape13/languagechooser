@@ -1,5 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: hotpink;
   background-image: linear-gradient(rgb(231, 6, 6), gold, rgb(0, 183, 255), indigo);
   background-repeat: no-repeat;
   height: 100vh;
