@@ -24,4 +24,10 @@ $(document).ready(function() {
     $("#q5").fadeIn();
   });
 
+  $("#theQuiz").submit(function(event){
+    event.preventDefault();
+    $("#q5").hide();
+    $("#output").fadeIn();
+  });
+
 });
