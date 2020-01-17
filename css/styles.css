@@ -18,6 +18,11 @@ h2 {
   color: slateblue;
 }
 
+h2 p {
+  font-size: 75%;
+  padding: 30px;
+}
+
 #startbtn {
   background-image: radial-gradient(white, darkslategray);
   border: 2px solid black;
@@ -33,6 +38,7 @@ h2 {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  margin: 10px;
 }
 
 #submitbtn {
@@ -40,6 +46,11 @@ h2 {
   border-radius: 35%;
   background-image: radial-gradient(rgb(141, 141, 241), cyan);
   padding: 6px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
 }
 
 #output {
@@ -81,11 +92,6 @@ h2 {
 #result4 {
   display: none;
   margin-bottom: 50px;
-}
-
-h2 p {
-  font-size: 75%;
-  padding: 30px;
 }
 
 .restart a {
