@@ -22,3 +22,10 @@ h1 {
   margin: 30px;
   padding: 5px;
 }
+
+.nextbtn {
+  border: 2px solid indigo;
+  border-radius: 25%;
+  background-image: radial-gradient(lavender, gray);
+  padding: 5px;
+}
