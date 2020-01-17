@@ -80,9 +80,18 @@ h2 {
 
 #result4 {
   display: none;
+  margin-bottom: 50px;
 }
 
 h2 p {
   font-size: 75%;
   padding: 30px;
+}
+
+.restart a {
+  border: 3px solid black;
+  border-radius: 25%;
+  padding: 10px;
+  background-color: rgba(158, 145, 145, 0.3);
+  color: white;
 }
