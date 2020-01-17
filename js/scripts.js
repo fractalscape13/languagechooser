@@ -37,8 +37,11 @@ $(document).ready(function() {
       $("#result1").show();
     } else if (result > 8 && result < 12) {
       $("#result2").show();
-    } else {
+    } else  if (result > 11) {
       $("#result3").show();
+    } else {
+      alert("You didn't answer all the questions");
+      $("#result4").show();
     }
 
     $("#q5").hide();

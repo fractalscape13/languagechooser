@@ -76,3 +76,11 @@ h2 {
 #result3 {
   display: none;
 }
+
+#result4 {
+  display: none;
+}
+
+h2 p {
+  font-size: 75%;
+}
