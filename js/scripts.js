@@ -23,6 +23,10 @@ $(document).ready(function() {
     $("#q4").hide();
     $("#q5").fadeIn();
   });
+  
+  $(document).on("keydown", "form", function(event) { 
+    return event.key != "Enter";
+});
 
   $("#theQuiz").submit(function(event){
     event.preventDefault();
