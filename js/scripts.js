@@ -4,32 +4,26 @@ $(document).ready(function() {
     $("#start").hide();
     $("#q1").fadeIn();
   })
-
   $("#btn1").click(function(){
     $("#q1").hide();
     $("#q2").fadeIn();
   });
-
   $("#btn2").click(function(){
     $("#q2").hide();
     $("#q3").fadeIn();
   });
-
   $("#btn3").click(function(){
     $("#q3").hide();
     $("#q4").fadeIn();
   });
-
   $("#btn4").click(function(){
     $("#q4").hide();
     $("#q5").fadeIn();
   });
-  
   //function to prevent pressing 'enter' from submitting form
   $(document).on("keydown", "form", function(event) { 
     return event.key != "Enter";
 });
-
   //function to take input, turn into numerical value, and choose/display result
   $("#theQuiz").submit(function(event){
     event.preventDefault();
@@ -54,5 +48,4 @@ $(document).ready(function() {
     $("#q5").hide();
     $("#output").fadeIn();
   });
-
 });
