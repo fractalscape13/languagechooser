@@ -1,3 +1,4 @@
+//function to switch from question to question on button click
 $(document).ready(function() {
   $("#startbtn").click(function(){
     $("#start").hide();
@@ -24,10 +25,12 @@ $(document).ready(function() {
     $("#q5").fadeIn();
   });
   
+  //function to prevent pressing 'enter' from submitting form
   $(document).on("keydown", "form", function(event) { 
     return event.key != "Enter";
 });
 
+  //function to take input, turn into numerical value, and choose/display result
   $("#theQuiz").submit(function(event){
     event.preventDefault();
     var val1 = parseInt($("input:radio[name=input1]:checked").val());

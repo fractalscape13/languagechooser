@@ -41,16 +41,44 @@ h2 p {
   margin: 10px;
 }
 
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(182, 178, 178);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(238, 64, 151);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid black;
+}
+
 #submitbtn {
   border: 3px solid rgb(17, 12, 90);
   border-radius: 35%;
   background-image: radial-gradient(rgb(141, 141, 241), cyan);
   padding: 6px;
-}
-
-input {
-  padding: 5px;
-  margin: 5px;
 }
 
 #output {
@@ -100,32 +128,4 @@ input {
   padding: 10px;
   background-color: rgba(158, 145, 145, 0.3);
   color: white;
-}
-
-input[type='radio']:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: rgb(182, 178, 178);
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid white;
-}
-
-input[type='radio']:checked:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: rgb(238, 64, 151);
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid white;
 }
