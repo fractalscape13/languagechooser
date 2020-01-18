@@ -74,6 +74,21 @@ input[type='radio']:checked:after {
   border: 2px solid black;
 }
 
+#links {
+  border: 5px solid silver;
+  border-radius: 30%;
+  background-color: rgb(170, 166, 166, .5);
+  opacity: .8;
+}
+
+#links p {
+  color: white;
+}
+
+#links a {
+  color: yellow;
+}
+
 #submitbtn {
   border: 3px solid rgb(17, 12, 90);
   border-radius: 35%;
@@ -120,6 +135,12 @@ input[type='radio']:checked:after {
 #result4 {
   display: none;
   margin-bottom: 50px;
+}
+
+#linklist {
+  display: none;
+  margin-top: 50px;
+  padding: 15px;
 }
 
 .restart a {

@@ -41,8 +41,8 @@ $(document).ready(function() {
     } else  if (result > 11) {
       $("#result3").show();
     } else {
-      alert("You didn't answer all the questions");
       $("#result4").show();
+      $("#linklist").show();
     }
 
     $("#q5").hide();
