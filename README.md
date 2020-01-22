@@ -13,6 +13,7 @@ _This site is designed to ask a user a series of questions, take the input and c
 * _Clone from github repository https://github.com/fractalscape13/languagechooser_
 * _Open index.html in browser to view page_
 * _Open in text editor to view code_
+* _View working page at https://fractalscape13.github.io/languagechooser/
 
 _Simple, doesn't require anything additional_
 
